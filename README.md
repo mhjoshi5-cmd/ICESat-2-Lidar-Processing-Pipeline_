@@ -33,9 +33,9 @@ The workflow integrates satellite remote sensing data, geophysical modeling, and
 1. Load HDF5 satellite datasets
 2. Extract geophysical variables
 3. Clean invalid observations
-4. Apply hydrostatic balance model:
-   - Freeboard → Snow depth → Ice thickness
-5. Aggregate and export results
+4. Sea ice thickness is calculated using the buoyancy principle by assuming that water, ice, and snow are in isostatic equilibrium:
+   - Freeboard → Snow depth (empirical parameters) → Ice thickness
+5. Aggregate and export results into csv
 
 ---
 
