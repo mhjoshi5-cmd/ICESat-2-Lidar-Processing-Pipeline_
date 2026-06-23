@@ -1,4 +1,4 @@
-# icesat2-sea-ice-thickness-pipeline
+# ICESat-2-sea-ice-thickness-pipeline
 Python pipeline to process ICESat-2 satellite data and estimate sea ice thickness using geophysical models and ERA5 forcing.
 # Sea Ice Thickness Processing Pipeline
 
